@@ -6,7 +6,24 @@
     <title>Unity Web Player | King's Rush</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-  </head>
+  <style>
+  html,body{margin:0;padding:0;background:#000;overflow:hidden;width:100%;height:100%}
+  #rotate-hint{display:none;position:fixed;inset:0;background:#0a0d18;color:#fff;z-index:99999;
+    align-items:center;justify-content:center;flex-direction:column;font-family:system-ui,sans-serif;text-align:center;padding:24px}
+  #rotate-hint .ic{font-size:80px;margin-bottom:24px;animation:rot 1.6s ease-in-out infinite}
+  #rotate-hint h1{font-size:24px;margin:0 0 12px;color:#ffd86b}
+  #rotate-hint p{font-size:16px;line-height:1.6;color:#cbd2e0;margin:0}
+  @keyframes rot{0%,100%{transform:rotate(-90deg)}50%{transform:rotate(0deg)}}
+  @media (orientation: portrait) and (max-width: 900px){
+    #rotate-hint{display:flex}
+    #unity-canvas{display:none !important}
+  }
+</style>
+<div id="rotate-hint">
+  <div class="ic">📱</div>
+  <h1>請將手機橫向持握</h1>
+  <p>本遊戲為橫向畫面<br/>旋轉裝置即可開始遊玩</p>
+</div></head>
   <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=1920 height=1080 style="display:block" tabindex="-1"></canvas>

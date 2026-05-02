@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user" at "2026-05-02T11:00:52.875966Z"
 Built from '6000.4/staging' branch; Version is '6000.4.5f1 (cc83ebd631f8) revision 13403115'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'zh' Physical Memory: 65291 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user" at "2026-05-02T10:42:02.788363Z"
 Process architecture: x64
-Date: 2026-05-02T10:42:02Z
+Date: 2026-05-02T11:00:52Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.4.5f1\Editor\Unity.exe
@@ -55,14 +55,14 @@ C:/Users/user/Desktop/群體塔防/UnityProject
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [161808]  Target information:
+Player connection [174480]  Target information:
 
-Player connection [161808]  * "[IP] 192.168.68.57 [Port] 55504 [Flags] 2 [Guid] 1545521685 [EditorId] 1545521685 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-60U022V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [174480]  * "[IP] 192.168.68.57 [Port] 55504 [Flags] 2 [Guid] 4031073262 [EditorId] 4031073262 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-60U022V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [161808]  * "[IP] 172.25.96.1 [Port] 55504 [Flags] 2 [Guid] 1545521685 [EditorId] 1545521685 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-60U022V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [174480]  * "[IP] 172.25.96.1 [Port] 55504 [Flags] 2 [Guid] 4031073262 [EditorId] 4031073262 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-60U022V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [161808] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [161808] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [174480] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [174480] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -72,21 +72,21 @@ Input System module state changed to: Initialized.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-user"
 [Licensing::IpcConnector] LicenseClient-user channel disconnected successfully.
 [Licensing::IpcConnector] Channel LicenseClient-user-6000.4.5 doesn't exist
-[Licensing::Module] Successfully launched the LicensingClient (PId: 148268)
-[Package Manager] Connected to IPC stream "Upm-77208" after 0.3 seconds.
+[Licensing::Module] Successfully launched the LicensingClient (PId: 55996)
+[Package Manager] Connected to IPC stream "Upm-161764" after 0.3 seconds.
 [Licensing::Module] Licensing is not yet initialized.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user-6000.4.5" at "2026-05-02T10:42:03.7621994Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 148268, path: "C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user-6000.4.5" at "2026-05-02T11:00:53.9484444Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 55996, path: "C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              974da16e93334127a048fd675d9bb80b
-  Correlation Id:          e7c9b2573b7d863c509c09f7c99784b8
-  External correlation Id: 4356916341943609164
+  Session Id:              6b51f34d99024bbe9a218e83101d1fa8
+  Correlation Id:          176d452f7c585196b077ea6d169ba7f3
+  External correlation Id: 2088767473959238475
   Machine Id:              2fouUeh1kdYWadp0eiryuO+kKTA=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-user-6000.4.5" (connect: 0.37s, validation: 0.15s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user-6000.4.5-notifications" at "2026-05-02T10:42:03.9126245Z"
-[Licensing::Module] Connected to LicensingClient (PId: 148268, launch time: 0.00, total connection time: 0.52s)
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-user-6000.4.5" (connect: 0.37s, validation: 0.19s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user-6000.4.5-notifications" at "2026-05-02T11:00:54.1387274Z"
+[Licensing::Module] Connected to LicensingClient (PId: 55996, launch time: 0.00, total connection time: 0.56s)
 [Licensing::Module] Error: Access token is unavailable; failed to update
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -96,8 +96,8 @@ Input System module state changed to: Initialized.
   Expiration: Unlimited
 [Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
 [Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] Licensing Background thread has ended after 1.15s
-[Licensing::Module] Licensing is initialized (took 0.49s).
+[Licensing::Module] Licensing Background thread has ended after 1.29s
+[Licensing::Module] Licensing is initialized (took 0.56s).
 [Licensing::Client] Successfully resolved entitlement details
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
@@ -119,7 +119,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
 CodeReloadManager initialized
 Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
 Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
@@ -129,30 +129,30 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001109 seconds.
+Registered in 0.001292 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:False
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.264 seconds
-Domain Reload Profiling: 570ms
-	BeginReloadAssembly (90ms)
-		CreateAndSetChildDomain (8ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (141ms)
-		LoadAssemblies (80ms)
-		AnalyzeDomain (135ms)
-			TypeCache.Refresh (134ms)
-				TypeCache.ScanAssembly (125ms)
-	FinalizeReload (265ms)
+- Finished resetting the current domain, in  0.322 seconds
+Domain Reload Profiling: 698ms
+	BeginReloadAssembly (114ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (94ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (162ms)
+				TypeCache.ScanAssembly (152ms)
+	FinalizeReload (323ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (74ms)
-			ProcessInitializeOnLoadMethodAttributes (58ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (91ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
 [Licensing::Client] Successfully resolved entitlement details
 Application.AssetDatabase Initial Refresh Start
 [Package Manager] Restoring resolved packages state from cache
@@ -199,29 +199,24 @@ Application.AssetDatabase Initial Refresh Start
     com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\user\Desktop\群體塔防\UnityProject\Library\PackageCache\com.unity.modules.hierarchycore)
 [Subsystems] No new subsystems found in resolved package list.
 [Package Manager] Done registering packages in 0.01 seconds
-[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
 Starting: C:\Program Files\Unity\Hub\Editor\6000.4.5f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/2000b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
 WorkingDir: C:/Users/user/Desktop/群體塔防/UnityProject
 DisplayProgressbar: Compiling Scripts
-ExitCode: 0 Duration: 2s418ms
-[226/232    1s] Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll (+2 others)
+ExitCode: 0 Duration: 2s924ms
+[226/232    2s] Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll (+2 others)
 Assets\Scripts\Bootstrap\SceneBootstrapper.cs(651,17): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindFirstObjectByType instead or if finding any instance is acceptable the faster Object.FindAnyObjectByType'
 
 Assets\Scripts\Systems\RoundManager.cs(21,15): warning CS0414: The field 'RoundManager._bonusCardTimer' is assigned but its value is never used
-[227/232    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
 [228/232    0s] Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
 Assets\Editor\WebGLBuilder.cs(37,13): warning CS0618: 'PlayerSettings.SetIl2CppCompilerConfiguration(BuildTargetGroup, Il2CppCompilerConfiguration)' is obsolete: 'Use SetIl2CppCompilerConfiguration(NamedBuildTarget buildTarget, Il2CppCompilerConfiguration configuration) instead'
-[229/232    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
-[230/232    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
-[231/232    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
-*** Tundra build success (2.39 seconds), 6 items updated, 232 evaluated
+*** Tundra build success (2.89 seconds), 2 items updated, 232 evaluated
 Assets\Scripts\Bootstrap\SceneBootstrapper.cs(651,17): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindFirstObjectByType instead or if finding any instance is acceptable the faster Object.FindAnyObjectByType'
 Assets\Scripts\Systems\RoundManager.cs(21,15): warning CS0414: The field 'RoundManager._bonusCardTimer' is assigned but its value is never used
 Assets\Editor\WebGLBuilder.cs(37,13): warning CS0618: 'PlayerSettings.SetIl2CppCompilerConfiguration(BuildTargetGroup, Il2CppCompilerConfiguration)' is obsolete: 'Use SetIl2CppCompilerConfiguration(NamedBuildTarget buildTarget, Il2CppCompilerConfiguration configuration) instead'
-AssetDatabase: script compilation time: 2.683905s
+AssetDatabase: script compilation time: 3.222740s
 Begin MonoManager ReloadAssembly
 Total cache size 38466901
-Total cache size after purge 38466901, took 00:00:00.0276414
+Total cache size after purge 38466901, took 00:00:00.0273071
 Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
 Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
 Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
@@ -235,89 +230,72 @@ Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.362 seconds
-Domain Reload Profiling: 1259ms
-	BeginReloadAssembly (173ms)
-		DisableScriptedObjects (29ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (650ms)
-	LoadAllAssembliesAndSetupDomain (36ms)
-		LoadAssemblies (91ms)
+- Finished resetting the current domain, in  0.400 seconds
+Domain Reload Profiling: 679ms
+	BeginReloadAssembly (188ms)
+		DisableScriptedObjects (39ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (25ms)
+		LoadAssemblies (90ms)
 		AnalyzeDomain (16ms)
 			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (6ms)
 			BuildScriptInfoCaches (3ms)
-	FinalizeReload (362ms)
+	FinalizeReload (400ms)
 		SetupLoadedEditorAssemblies (0ms)
 			InitializePlatformSupportModulesInManaged (23ms)
-			BeforeProcessingInitializeOnLoad (102ms)
-			ProcessInitializeOnLoadAttributes (69ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (70ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (4ms)
 		AwakeInstancesAfterBackupRestoration (20ms)
 (Values over 0.050ms)
-Asset Pipeline Refresh (id=ebca6c12dc8dfb74fa1e4608f0da67ea): Total: 4.114 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+Asset Pipeline Refresh (id=7db77e9977204af4792992c6a5885a43): Total: 4.081 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
 	Summary:
 		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=464 ms
-		Asset DB Callback time: managed=48 ms, native=10 ms
-		Scripting: domain reloads=1, domain reload time=898 ms, compile time=2685 ms, other=6 ms
-		Project Asset Count: scripts=210, non-scripts=134
-		Asset File Changes: new=0, changed=3, moved=0, deleted=0
+		Asset DB Process Time: managed=0 ms, native=538 ms
+		Asset DB Callback time: managed=17 ms, native=10 ms
+		Scripting: domain reloads=1, domain reload time=281 ms, compile time=3224 ms, other=7 ms
+		Project Asset Count: scripts=210, non-scripts=139
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
 		Scan Filter Count: 0
-	InvokePackagesCallback: 10.076ms
-	ApplyChangesToAssetFolders: 0.330ms
-	Scan: 39.795ms
-	OnSourceAssetsModified: 0.730ms
-	CategorizeScriptCompilationAssets: 1.401ms
-	ProcessAssetsWithTransientArtifactChanges: 5.863ms
-	CategorizeAssets: 1.414ms
-	CompileScripts: 2685.251ms
-	ImportOutOfDateAssets: 363.130ms (362.882ms without children)
-		UnloadImportedAssets: 0.064ms
-		OnDemandSchedulerStart: 0.140ms
-	PostProcessAllAssets: 49.246ms
-		VCAutoAddAssetPostprocess 1.113ms
-		MonoPostProcessAllAssets: 47.648ms
-			AssetPostprocessor.OnPostprocessAllAssets 11.902ms
-			StyleCatalogPostProcessor.OnPostprocessAllAssets 10.459ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 6.055ms
-			BuilderAssetPostprocessor.OnPostprocessAllAssets 4.905ms
-			AssetChangedListener.OnPostprocessAllAssets 1.254ms
-			SyncVS.PostprocessSyncProject 1.028ms
-			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.977ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.739ms
-			TextAssetPostProcessor.OnPostprocessAllAssets 0.487ms
-			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.417ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.387ms
-			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.355ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.285ms
-			AudioMixerPostprocessor.OnPostprocessAllAssets 0.178ms
-			AssetEvents.OnPostprocessAllAssets 0.175ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.125ms
-			SpeedTreePostProcessor.OnPostprocessAllAssets 0.123ms
-			ConfigAssetsTracker.OnPostprocessAllAssets 0.095ms
-			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.087ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.070ms
-			AudioContainerPostProcessor.OnPostprocessAllAssets 0.051ms
-	PostAssetChangesProfiler: 0.356ms
-	UnloadStreamsBegin: 0.995ms
-	GenerateScriptTypeHashes: 0.169ms
-	GenerateScriptTypeSerializationHashes: 0.369ms
-	Untracked: 951.248ms
+	InvokePackagesCallback: 11.586ms
+	ApplyChangesToAssetFolders: 0.428ms
+	Scan: 67.766ms
+	CategorizeScriptCompilationAssets: 1.202ms
+	ProcessAssetsWithTransientArtifactChanges: 6.051ms
+	CategorizeAssets: 1.565ms
+	CompileScripts: 3224.110ms
+	ImportOutOfDateAssets: 400.858ms (400.578ms without children)
+		UnloadImportedAssets: 0.071ms
+		OnDemandSchedulerStart: 0.164ms
+	PostProcessAllAssets: 17.911ms
+		MonoPostProcessAllAssets: 17.869ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 6.772ms
+			SyncVS.PostprocessSyncProject 1.157ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.604ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.274ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.165ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.133ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.077ms
+	UnloadStreamsBegin: 1.093ms
+	GenerateScriptTypeHashes: 0.160ms
+	GenerateScriptTypeSerializationHashes: 0.348ms
+	Untracked: 344.277ms
 
 Application.AssetDatabase Initial Refresh End
-Scanning for USB devices : 5.120ms
+Scanning for USB devices : 5.581ms
 Initializing Unity extensions:
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-King's Rush
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 475 unused Assets / (0.7 MB). Loaded Objects now: 1107.
-Memory consumption went from 98.0 MB to 97.3 MB.
-Total: 3.617900 ms (FindLiveObjects: 0.052400 ms CreateObjectMapping: 0.014800 ms MarkObjects: 3.313700 ms  DeleteObjects: 0.234800 ms)
+Memory consumption went from 96.1 MB to 95.4 MB.
+Total: 3.943500 ms (FindLiveObjects: 0.057800 ms CreateObjectMapping: 0.015800 ms MarkObjects: 3.621500 ms  DeleteObjects: 0.245900 ms)
 
 Shader not found: Universal Render Pipeline/Lit
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
@@ -374,73 +352,7 @@ KingsRush.EditorTools.KeepShadersInResources:Generate () (at Assets/Editor/KeepS
 
 (Filename: Assets/Editor/KeepShadersInResources.cs Line: 40)
 
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Start importing Assets/Resources/_KeepShaders/_keep_Particles_Standard_Unlit.mat using Guid(be320431a60775d4b9a4d2f696b32673) (NativeFormatImporter) -> (Import Result ID: '6bad63bd1fcb0e7a7a427383b2b35445') in 0.0050285 seconds [static dependencies only]. Details - ImportResultOutputID=b0310c9dd635b0357f29df1bedb764c0 DependenciesID=a589d7aa3729b6e2552a255a0c62b8aa StaticDependenciesID=b8e5aea011c2bf110af934831e81c622 
-Asset Pipeline Refresh (id=f2f700c6b7be41842a842a4f9c699b39): Total: 0.029 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[KeepShaders] +Particles/Standard Unlit
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-KingsRush.EditorTools.KeepShadersInResources:Generate () (at Assets/Editor/KeepShadersInResources.cs:46)
-
-(Filename: Assets/Editor/KeepShadersInResources.cs Line: 46)
-
-Start importing Assets/Resources/_KeepShaders/_keep_Legacy_Shaders_Particles_Alpha_Blended.mat using Guid(3081bc50896a4b348b54fb789ef684fb) (NativeFormatImporter) -> (Import Result ID: '01a2ce23b81971347fa535d40610ca1e') in 0.0015244 seconds [static dependencies only]. Details - ImportResultOutputID=9cdca89cddb1130e41a54f795941170f DependenciesID=c9ccc9c8cccbd6e67b9e83692301d837 StaticDependenciesID=9a86829c2865072bb891e95f8e04f289 
-Asset Pipeline Refresh (id=c7f16e4740edd014f84e7018e4ac23f7): Total: 0.010 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[KeepShaders] +Legacy Shaders/Particles/Alpha Blended
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-KingsRush.EditorTools.KeepShadersInResources:Generate () (at Assets/Editor/KeepShadersInResources.cs:46)
-
-(Filename: Assets/Editor/KeepShadersInResources.cs Line: 46)
-
-Start importing Assets/Resources/_KeepShaders/_keep_Mobile_Particles_Additive.mat using Guid(be686add246972a4eb12c34a4645e1d6) (NativeFormatImporter) -> (Import Result ID: 'adbc2c73d57b7a14400b73bd0e12e944') in 0.0012843 seconds [static dependencies only]. Details - ImportResultOutputID=f8a352fa354dbf0f698a3031e8dd23c3 DependenciesID=79ae584ea2c956b71a0fc559d359f22e StaticDependenciesID=d4fe9d6ae20bc150acdb709f9afe44b2 
-Asset Pipeline Refresh (id=77d87f543ed6f934284efa405fef3878): Total: 0.012 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[KeepShaders] +Mobile/Particles/Additive
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-KingsRush.EditorTools.KeepShadersInResources:Generate () (at Assets/Editor/KeepShadersInResources.cs:46)
-
-(Filename: Assets/Editor/KeepShadersInResources.cs Line: 46)
-
-Start importing Assets/Resources/_KeepShaders/_keep_Mobile_Particles_Alpha_Blended.mat using Guid(920a8ec2d5b40574fab2fbb28ec2260e) (NativeFormatImporter) -> (Import Result ID: '45ac8ab7d781baaf9b2f454a9d939f75') in 0.0014687 seconds [static dependencies only]. Details - ImportResultOutputID=f66ef44da4f2de4a64cad456212cf032 DependenciesID=2c898e8402f7514bf8009df7c407a69b StaticDependenciesID=25f12b43cab899620ea6f3932311a54a 
-Asset Pipeline Refresh (id=071ebf6f5857bba45a50563ef0677618): Total: 0.012 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[KeepShaders] +Mobile/Particles/Alpha Blended
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-KingsRush.EditorTools.KeepShadersInResources:Generate () (at Assets/Editor/KeepShadersInResources.cs:46)
-
-(Filename: Assets/Editor/KeepShadersInResources.cs Line: 46)
-
-Start importing Assets/Resources/_KeepShaders/_keep_UI_Default.mat using Guid(bf0a3f4355fbcb843a157848d406751f) (NativeFormatImporter) -> (Import Result ID: 'bd1279c1f76d7cd27d886650d375282a') in 0.0012324 seconds [static dependencies only]. Details - ImportResultOutputID=e588d77033d7732ab9b37c192821303f DependenciesID=5954ccc2810ec2272cf78027f00caa0b StaticDependenciesID=7dd0fccee07b7bc9f0c88e70cf8f03b7 
-Asset Pipeline Refresh (id=3404472160253e542a7f23c57969014a): Total: 0.011 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[KeepShaders] +UI/Default
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-KingsRush.EditorTools.KeepShadersInResources:Generate () (at Assets/Editor/KeepShadersInResources.cs:46)
-
-(Filename: Assets/Editor/KeepShadersInResources.cs Line: 46)
-
-Asset Pipeline Refresh (id=f86a524dd89d78d45b4258c53ef3bf0a): Total: 0.005 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=79dd105c896f0334f9069c55436fbc16): Total: 0.003 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
 Batchmode quit successfully invoked - shutting down!
 Curl error 42: Callback aborted
 [Physics::Module] Cleanup current backend.
